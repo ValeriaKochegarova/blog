@@ -1,0 +1,30 @@
+<div class="explore">
+    <div class="explore-wrapper">
+        <p class="forum">Explore Forum</p>
+        <p class="photo">An online Community of Passionate Photographers.</p>
+    </div>
+    <div class="details">
+        <mat-card *ngFor="let list of listDetails">
+            <img mat-card-image *ngIf="list.image" src={{list.image}}>
+            <mat-card-content *ngIf="list.description" class="desc">
+                <p>
+                    {{list.description}}
+                </p>
+            </mat-card-content>
+            <div class="test">
+        <mat-card-content *ngIf="list.name" >
+            <p>
+                {{list.name}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions *ngIf="list.like">
+                <button mat-icon-button class="head-button">
+                    <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+                </button>
+            </mat-card-actions>
+        </div>
+        </mat-card>
+
+    </div>
+
+</div>

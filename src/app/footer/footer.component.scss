@@ -1,0 +1,23 @@
+.all-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.social-wrapper .facebook { 
+    color: white;
+    margin-top: 20px;
+}
+.social-wrapper .instagram {
+    color: white;
+    margin-left: 10px;
+}
+.social-wrapper .telegram{
+    color: white;
+    margin-left: 10px;
+}
