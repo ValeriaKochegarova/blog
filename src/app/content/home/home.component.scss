@@ -1,8 +1,35 @@
 .explore-wrapper {
     display: flex;
     flex-direction: column;
-    background: url('../../../assets/img/mountains.jpeg') no-repeat;
+    background-image: url('../../../assets/img/mountains.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .explore-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-image: url('../../../assets/img/mountains.jpeg') ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 1200px;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .explore-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-image: url('../../../assets/img/mountains.jpeg') ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 1200px;
+    }
 }
 .forum {
     text-align: center;
@@ -25,6 +52,18 @@
     width: 900px;
     margin-left: 300px;
   //justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .details {
+        display: flex;
+         flex-direction: column;
+}
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .details {
+        display: flex;
+         flex-direction: column;
+        }
 }
 .details-wrapper {
     display: flex;

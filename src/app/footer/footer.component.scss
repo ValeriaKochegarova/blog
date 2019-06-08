@@ -4,6 +4,24 @@
     justify-content: center;
     background-color: black;
 }
+@media (min-width: 768px) and (max-width: 1198px) {
+    .all-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    width: 1200px;
+    }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .all-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    width: 1200px;
+    }
+}
 .social {
     display: flex;
     flex-direction: row;
